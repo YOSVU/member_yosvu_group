@@ -1,8 +1,4 @@
 import { defineUserConfig } from 'vuepress'
-import { gitPlugin } from '@vuepress/plugin-git'
-import { searchPlugin } from '@vuepress/plugin-search'
-import { nprogressPlugin } from '@vuepress/plugin-nprogress'
-import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
 
@@ -24,18 +20,4 @@ export default defineUserConfig({
   lang: 'zh',
   title: '青开大团队档案',
   description: '青年开源虚拟大学团队档案存档',
-  theme: defaultTheme({
-    logo: 'https://yosvu.eu.org/img/logo.ico',
-    repo: 'YOSVU/member_yosvu_group',
-    locales: {
-      '/en/': {
-        selectLanguageName: 'English',
-      },
-      '/zh/': {
-        selectLanguageName: '简体中文',
-      },
-    },
-  }),
-  plugins: [
-  ],
 })
