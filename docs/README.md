@@ -12,7 +12,7 @@ actions:
 footer: YOSVU 2023
 ---
 
-<SearchBox />
+
 
 <!-- <CodeGroup>
   <CodeGroupItem title="PNPM" active>

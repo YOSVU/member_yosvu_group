@@ -37,13 +37,5 @@ export default defineUserConfig({
     },
   }),
   plugins: [
-    gitPlugin({
-      // 配置项
-    }),
-
-    searchPlugin({
-      // 配置项
-    }),
-    nprogressPlugin(),
   ],
 })
